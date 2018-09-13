@@ -2,7 +2,7 @@
 Заменить минимальный элемент на это значение. '''
 def num2():
     my_list = [1, -3, -6, 2, 4, 0, -5, 5, 3]
-    min_arg = min(*my_list)
+    min_arg = min(my_list)
     average = 0
     for i in range(len(my_list)):
         if my_list[i] == min_arg:
