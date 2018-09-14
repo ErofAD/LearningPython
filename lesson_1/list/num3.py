@@ -8,8 +8,6 @@
             
 '''
 def num3(my_list):
-    #my_list = [1, 3, 5, 2, 3, 8, 10, 9, 4, 5, 7, 9, 10]
-    #my_list = [1, 2, 3]
     sum_max = 0
     num = 0
     s = 1
