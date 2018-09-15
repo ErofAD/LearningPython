@@ -6,7 +6,7 @@ def num5():
     h = int(input('Hour = '))
     m = int(input('Minute = '))
     s = int(input('Second = '))
-    ans = (h + m/60 + s/360)*360/12
+    ans = (h + m/60 + s/3600)*360/12
     print('Угол часовой стрелки = ', ans)
 
 if __name__ == "__main__":
